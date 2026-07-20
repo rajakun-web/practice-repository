@@ -1,0 +1,67 @@
+1. SRS(Software Requirement Specification) document- tell us what the system must do?, what should be the features?,  can be made for any type of software. like my site will tell how many people have my blood type near 
+
+SDD(Software design document)- tells you exactly the work flow the project.
+
+
+Git, Github.
+
+Git -> Git automatically keeps track of every change.
+       Instead of creating multiple files, you simply save changes.
+       Git remembers:
+
+           Who changed the file
+           When it was changed
+           What exactly was changed
+           Why it was changed (through commit messages)
+
+You can even return to any previous version.
+
+Git is a Version Control System (VCS).
+
+Its purpose is to manage changes made to files over time.
+
+It was created by Linus Torvalds in 2005.
+
+Git works on your local computer.
+
+Github is mainly for collaboration and sharing among the team members
+within the company.
+
+everyone  uploads ("pushes") changes to github
+everyone  downloads ("pull") others' changes to github
+
+example: HTML developer pushes code releated to HTML.
+		Java developer can pull the code html and then combine its html and java\
+		code together so that a full website can be made.
+		
+
+git init ->
+
+(init -> initialize)
+To be run only 1 time whenever a new project or repository is being created.
+No need to run it again and again.
+
+The folder is now a Git Repository.
+Git creates a hidden ".git" folder to store version history and repository metadata.
+
+git add file-name"
+Whenever we do any changes in the file, we must write "git add".
+It means "Stage the file".
+The "staging" is like "waiting room" where you collect changes before saving
+them permanently.
+
+git add file-name -> it will stage only this particular file-name.
+
+git add . -> it will stage all the files which were being changed/modified
+
+git status- to check the status of the file.
+
+git commit -m "your comments" always add comments with commit
+
+git log - you will see deatils : 
+
+git diff : command
+
+git merge, branch and switch
+
+git pull origin main- comman to pull from github repository
